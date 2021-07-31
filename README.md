@@ -17,3 +17,13 @@
 - center-multi-consumer
 - center-multi-provider
 - center-interface
+
+## 负载均衡配置
+<dubbo:service interface="..." loadbalance="roundorbin"/>
+或
+<dubbo:reference interface="..." loadbalance="roundorbin"/>
+Option：
+- 随机：loadbalance="random"
+- 轮询：loadbalance="roundorbin"
+- 最少活跃：loadbalance="leastactive"
+- 一致性：loadbalance="consistenthash"
