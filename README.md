@@ -24,6 +24,7 @@
 或
 
 <dubbo:reference interface="..." loadbalance="roundorbin"/>
+
 Option：
 - 随机：loadbalance="random"
 - 轮询：loadbalance="roundorbin"
